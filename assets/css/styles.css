@@ -27,7 +27,7 @@ body{
 .main__search{
     display: flex;
     justify-content: center;
-    background-color: #EE4B00;
+    background-color: #00A884;
     padding: 3rem;
     border-radius: 5px 5px 0 0;
 }
@@ -53,7 +53,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid #EE4B00;
+    border: 3px solid #00A884;
     border-radius: 0 0 5px 5px;
     max-height: 60rem;
     overflow: auto;
@@ -108,7 +108,7 @@ body{
     /* cursor: pointer; */
     border-radius: 100px;
     border: 1.2rem solid transparent;
-    box-shadow: inset 0 0 0 1rem #EE4B00;
+    box-shadow: inset 0 0 0 1rem #00A884;
 }
 
 .main__users::-webkit-scrollbar-track{
@@ -119,7 +119,7 @@ body{
 @supports(-moz-appearance: none){
     .main__users{
         scrollbar-width: thin;
-        scrollbar-color: #EE4B00 transparent;
+        scrollbar-color: #00A884 transparent;
     }
 }
 
